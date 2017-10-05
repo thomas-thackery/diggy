@@ -11,7 +11,6 @@
 # AAAA  <IP Address>
 # AAAA  <IP Address>
 #
-# Special thanks to Albert for nudges and edits
 
 echo 'Enter the PLATFORM domain you need A and AAAA records for (typically live)';
 read SITE;
