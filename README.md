@@ -1,7 +1,13 @@
 # diggy 
+
+### What's it for? ###
 Script to get A and AAAA from platform domain. Returns tidy output for hamsters. 
 
-Put _diggy_ in a directory where your projects live, e.g. /usr/local/bin and make sure there's a path to this directory in your shell configuration file (.bashrc, .zshrc, .bash_profile) like ```export PATH="/usr/local/bin:$PATH"```. You might need to make the file executable by running ```chmod +x``` on it. On my machine, I renamed to just _diggy_ and dropped the .sh extension. 
+### Installation ###
+Put _diggy_ in a directory where your projects live, e.g. `/usr/local/bin` and make sure there's a path to this directory in your shell configuration file (`.bashrc`, `.zshrc`, `.bash_profile`) like ```export PATH="/usr/local/bin:$PATH"```. You might need to make the file executable by running `chmod +x` on it. On my machine, I renamed to just _diggy_ and dropped the `.sh` extension. 
+
+### Can you dig it ###
+To run, just enter `diggy` and, when prompted, paste in the platform domain. The output will be the A and AAAA Records. 
 
 ![screenshot](https://github.com/thomas-thackery/diggy/blob/master/diggy-screenshot.png)
 
